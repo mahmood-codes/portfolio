@@ -2,7 +2,7 @@
 import { Project, ExperienceItem, SkillCategory, NavItem } from './types';
 
 export const SITE_DATA = {
-  name: "Mahmood",
+  name: "Mahmood Khan",
   role: "Junior DevOps Engineer",
   tagline: "Automating infrastructure and streamlining deployment pipelines.",
   email: "mahmood.k.acc@gmail.com", // Replace with actual email
