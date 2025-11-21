@@ -67,9 +67,11 @@ const Navbar: React.FC = () => {
 
           <a
             href={SITE_DATA.resumeLink}
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-4 py-2 text-sm font-mono font-medium border border-neutral-200 dark:border-neutral-700 rounded bg-neutral-100 dark:bg-neutral-900 text-neutral-900 dark:text-white hover:bg-neutral-200 dark:hover:bg-white dark:hover:text-black dark:hover:border-white transition-all duration-300"
           >
-            Resume.pdf
+            Resume
           </a>
         </div>
 
@@ -115,10 +117,12 @@ const Navbar: React.FC = () => {
               ))}
               <a
                 href={SITE_DATA.resumeLink}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-6 px-8 py-4 text-lg font-mono border border-neutral-300 dark:border-neutral-700 rounded bg-neutral-100 dark:bg-neutral-900 text-neutral-900 dark:text-white hover:bg-neutral-200 dark:hover:bg-white dark:hover:text-black transition-all"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Download Resume
+                View Resume
               </a>
             </div>
           </motion.div>

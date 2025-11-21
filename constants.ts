@@ -6,7 +6,7 @@ export const SITE_DATA = {
   role: "Junior DevOps Engineer",
   tagline: "Automating infrastructure and streamlining deployment pipelines.",
   email: "mahmood.k.acc@gmail.com", // Replace with actual email
-  resumeLink: "#", // Placeholder for resume download
+  resumeLink: "https://drive.google.com/file/d/1KzbVyX9CsfWVhdcLI0Kxp4la-R8z6nJH/view?usp=sharing", // Placeholder for resume download
   social: {
     github: "https://github.com/mahmood-codes",
     linkedin: "https://www.linkedin.com/in/khan20/"
