@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from './Section';
 import { PROJECTS_DATA } from '../constants';
-import { Github, ExternalLink, FolderGit2 } from 'lucide-react';
+import { Github, FolderGit2 } from 'lucide-react';
 
 const Projects: React.FC = () => {
   return (
