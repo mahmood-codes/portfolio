@@ -35,6 +35,8 @@ const Projects: React.FC = () => {
             <div className="flex items-center gap-4 mt-auto">
               <a 
                 href={project.repoLink}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm font-medium text-neutral-900 dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors"
               >
                 <Github size={16} />

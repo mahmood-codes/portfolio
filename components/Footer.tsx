@@ -12,10 +12,22 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="flex items-center gap-6">
-          <a href={SITE_DATA.social.github} className="text-neutral-500 dark:text-neutral-500 hover:text-black dark:hover:text-white transition-colors" aria-label="GitHub">
+          <a 
+            href={SITE_DATA.social.github} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-neutral-500 dark:text-neutral-500 hover:text-black dark:hover:text-white transition-colors" 
+            aria-label="GitHub"
+          >
             <Github size={20} />
           </a>
-          <a href={SITE_DATA.social.linkedin} className="text-neutral-500 dark:text-neutral-500 hover:text-black dark:hover:text-white transition-colors" aria-label="LinkedIn">
+          <a 
+            href={SITE_DATA.social.linkedin} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-neutral-500 dark:text-neutral-500 hover:text-black dark:hover:text-white transition-colors" 
+            aria-label="LinkedIn"
+          >
             <Linkedin size={20} />
           </a>
         </div>

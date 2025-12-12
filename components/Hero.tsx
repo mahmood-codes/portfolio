@@ -69,6 +69,8 @@ const Hero: React.FC = () => {
 
           <a
             href={SITE_DATA.resumeLink}
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto px-8 py-3 border border-neutral-300 dark:border-neutral-800 text-neutral-900 dark:text-white font-medium text-sm rounded-full transition-all duration-300 hover:bg-neutral-100 dark:hover:bg-neutral-900 hover:border-neutral-400 dark:hover:border-neutral-700 hover:scale-105 flex items-center justify-center gap-2 bg-white dark:bg-transparent"
           >
             <Download size={16} /> Resume
